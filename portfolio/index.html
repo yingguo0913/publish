@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="This is the resume page of Ying Guo, a mythical student of web design created by Susan Metoxen.">
+		<title>YG Portfolio::Home</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Bootstrap Stylesheet-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.png" alt="logo" height="63" width="100" class="img-fluid logo">
+		</header>
+		<!-- Navigation Bar -->
+		<nav>
+			<ul>
+ 				<li><a href="index.html">Home</a></li>
+  				<li><a href="resume.html">Resume</a></li>
+  				<li><a href="portfolio.html">Portfolio</a></li>
+  				<li><a href="javascript.html">Javascript</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="container-fluid">
+				<div class="row">	
+					<div class="col-sm-7">
+						<div class="column">							
+							<img src="images/lakehouse.jpg" alt="Dream House" width="500" height="375">
+							<p class="dreamhouse">The Lake Dream house photo is from <a href="https://pixabay.com/users/pen_ash-5526837/">pen_ash</a> by <a href="https://pixabay.com/photos/lake-boathouse-reflection-6217905/">Pixabay</a></p>
+						</div> 	 
+        			</div>		
+					<div class="col-sm-5">
+						<div class="column">
+							<div id="aboutme">
+								<h2 class="aboutme1">About Me</h2>
+								<p>My name is Ying Guo and I study Web Design and Web Programming at Saint Paul College in Saint Paul, Minnesota. This website is a portfolio of my skills in developing website.</p>
+								<p>My goals are to get a Computer Programming Degree, so that I want to work in Information Technology (IT). After Saint Paul College, I will be transferring to Saint Cloud College to complete my degree.</p>
+								<p>My hobbies are cooking, baking, painting and watching shows.</p>
+							</div>
+						</div>	
+					</div>
+				</div>	
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="column"></div>
+							<img src="images/resumelogo.png" alt="" width="200" height="200">
+							<h3>Resume</h3>
+							<p>Check out my resume! I am always looking for coding opportunities.<br><br>
+							<a href="resume.html">Learn More</a></p>
+					</div>
+					<div class="col-sm-4">
+						<div class="column"></div>
+						<img src="images/portfoliologo.png" alt="" width="200" height="200">
+							<h3>Portfolio</h3>
+							<p>My portfolio includes websites as well as some special HTML/CSS projects.<br><br>
+							<a href="portfolio.html">Learn More</a></p>
+					</div>
+					<div class="col-sm-4">
+						<div class="column"></div>
+						<img src="images/gamelogo.png" alt="" width="200" height="200">
+							<h3>JavaScript Game</h3>
+							<p>I made my custom version of the W3 School JaveScript game.<br><br>
+							<a href="javascript.html">Learn More</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="nature">
+				<h3>My Favorite Nature Photos</h3>
+				<p>I made these photos gallery in JavaScript. It includes some nature photos I found on Pixabay.com.</p>
+			</div>
+			<div class="gallery">
+    		<div class="preview">
+        		<img id="preview" src="images/lighthouse.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+    		</div>
+			<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+				<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/lighthouse.jpg" alt="" />
+        		<img onclick="document.getElementById('preview').src=document.getElementById('img2').src" id="img2" src="images/flowers.jpg" alt="" />
+        		<img onclick="document.getElementById('preview').src= document.getElementById('img3').src;" id="img3" src="images/poppies.jpg" alt=""  />
+        		<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/rose.jpg" alt="" />
+        		<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/hd.jpg" alt="" />
+        	</div>
+        	</div>		
+		</main>
+		<footer class="footer-top">	
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Sample Portfolio website for Web Development Students</h3>
+						<p>This website is a sample portfolio website made for students at <a href="https://www.saintpaul.edu/?gclid=CjwKCAiAheacBhB8EiwAItVO25mwpSWqcASsylT8pBoggXpz7ORcRazB5m0CP58mRenDuYt5tdyP9RoCsKEQAvD_BwE"><b>Saint Paul College</b></a>. It features a student named Ying Guo.</p>
+						<p>The Ying Guo Images is royalty free artwork from Pixabay</p>
+					</div>	
+					<div class="col-sm-6">
+						<h3>Let's Connect</h3>
+							<p><i class="fa fa-github-square" aria-hidden="true"></i><a href="https://github.com/yingguo0913">Github</a><br>
+							<i class="fa fa-instagram icon" aria-hidden="true"></i><a href="https://www.instagram.com/?hl=en">Instagram</a><br>
+							<i class="fa fa-envelope icon" aria-hidden="true"></i><a href="mailto:me@gmail.com">Email</a></p>	
+					</div>	
+				</div>
+			</div>	
+		</footer>				
+		<footer class="footer-bottom">
+				<small>To Learn more about web design, check in <a href="https://webdevstudents.com/"><b>WebDevStudents.com</b></a>, and consder enrolling in the <b>Web Design Certificate program</b> at Saint Paul College.<br>&copy; Ying Guo. All rights reserved.</small>			
+		</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
